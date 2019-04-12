@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin: 0 5% 0 5%;
+}
+
+.linkClass{
+  margin: 1%;
+  font-size: 24px;
+}
+
+.formClass{
+  text-align: center;
+  margin: 0 5% 5% 5%;
+  font-size: 20px;
+}
+.movieGrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.movieItem{
+  border: 1px solid gray;
+  border-radius: 2%;
+  margin: 1%;
+}
